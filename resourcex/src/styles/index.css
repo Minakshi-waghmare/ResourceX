@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body { @apply bg-brand-100 text-slate-800; font-family: Inter, system-ui, sans-serif; }
+.card { @apply rounded-2xl bg-white/90 border border-brand-100 shadow-sm p-3; }
+.btn { @apply w-full rounded-full bg-brand-900 text-white py-3 font-semibold flex items-center justify-center gap-2 disabled:opacity-50; }
+.btn2 { @apply w-full rounded-full border border-brand-900 text-brand-900 py-3 font-semibold flex items-center justify-center gap-2; }
+.chip { @apply rounded-full bg-brand-100 text-brand-700 text-xs px-2 py-1 inline-flex items-center gap-1; }
